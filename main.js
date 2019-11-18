@@ -31,8 +31,9 @@ $('.plus-btn').on('click', function(e) {
 });
 
 $('.delete-btn').on('click', function() {
-    $('.image, .quantity, .description, .total-price').remove();
+    $(this).closest('.item').remove();
 });
+
 
 $('.like-btn').on('click', function() {
     $(this).toggleClass('is-active');
