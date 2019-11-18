@@ -31,7 +31,7 @@ $('.plus-btn').on('click', function(e) {
 });
 
 $('.delete-btn').on('click', function() {
-    $(this).remove('.image, .quantity, .description, .total-price');
+    $('.image, .quantity, .description, .total-price').remove();
 });
 
 $('.like-btn').on('click', function() {
