@@ -39,6 +39,12 @@ $('.like-btn').on('click', function() {
     $(this).toggleClass('is-active');
 });
 
+$('.plus-btn').on('click', function() {
+	var i = 1;
+	var num1 = 549;
+	var num2 = 1 * i++;
+   alert(num1 * num2);
+});
 
 
 /*$('.delete-btn').on('click', function() {
